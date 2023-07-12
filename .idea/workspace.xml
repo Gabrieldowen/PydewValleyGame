@@ -2,11 +2,141 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="802d8ee9-05e6-40a9-8901-c5ba4c0a477b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/axe.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/bg.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/hoe.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/music.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/plant.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/success.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/water.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/LycheeSoda.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/down/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/down/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/down/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/down/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/down_axe/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/down_axe/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/down_hoe/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/down_hoe/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/down_idle/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/down_idle/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/down_water/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/down_water/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/left/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/left/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/left/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/left/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/left_axe/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/left_axe/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/left_hoe/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/left_hoe/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/left_idle/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/left_idle/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/left_water/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/left_water/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/right/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/right/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/right/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/right/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/right_axe/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/right_axe/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/right_hoe/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/right_hoe/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/right_idle/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/right_idle/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/right_water/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/right_water/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/up/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/up/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/up/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/up/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/up_axe/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/up_axe/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/up_hoe/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/up_hoe/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/up_idle/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/up_idle/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/up_water/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/character/up_water/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/environment/Bridge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/environment/Collision.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/environment/Fences.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/environment/Grass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/environment/Hills.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/environment/House Decoration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/environment/House.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/environment/Paths.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/environment/Plant Decoration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/environment/Water Decoration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/environment/Water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/environment/interaction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/fruit/apple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/fruit/corn/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/fruit/corn/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/fruit/corn/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/fruit/corn/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/fruit/tomato/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/fruit/tomato/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/fruit/tomato/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/fruit/tomato/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/objects/bush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/objects/flower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/objects/merchant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/objects/mushroom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/objects/mushrooms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/objects/stump_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/objects/stump_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/objects/sunflower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/objects/tree_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/objects/tree_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/overlay/axe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/overlay/corn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/overlay/hoe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/overlay/tomato.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/overlay/water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/rain/drops/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/rain/drops/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/rain/drops/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/rain/floor/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/rain/floor/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/rain/floor/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil/b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil/bl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil/bm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil/br.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil/l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil/lm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil/lr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil/lrb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil/lrt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil/o.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil/r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil/rm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil/soil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil/t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil/tb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil/tbl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil/tbr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil/tl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil/tm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil/tr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil_water/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil_water/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/soil_water/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/stumps/large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/stumps/small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/water/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/water/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/water/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/water/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/world/ground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/support.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +154,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2SRuFzpIOTCH9dk9y8Reb6jdbBN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
