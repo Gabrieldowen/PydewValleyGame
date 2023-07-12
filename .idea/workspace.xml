@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="802d8ee9-05e6-40a9-8901-c5ba4c0a477b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ConnectFour/.idea/ConnectFour.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gabe_test/.idea/Gabe_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PygameTemplate/.idea/PygameTemplate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sandbox/.idea/Sandbox.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypingGame/.idea/TypingGame.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../miniGame_PP/.idea/miniGame_PP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pp_HW6/.idea/pp_HW6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pp_HW7/.idea/pp_HW7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../School/AlgorithmAnalysis/AAmidterm2/.idea/AAmidterm2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../School/AlgorithmAnalysis/HomeWork1/.idea/HomeWork1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../School/AlgorithmAnalysis/Midterm2/.idea/Midterm2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../School/AlgorithmAnalysis/Projects/FirstGit/.idea/FirstGit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../School/AlgorithmAnalysis/Projects/Homework3/.idea/Homework3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../School/Past Semesters/Spring 2021/Programming/.idea/Programming.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../School/Past Semesters/Spring 2021/Programming/assignment 2/.idea/assignment 2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../School/Past Semesters/Spring 2021/Programming/assignment 3/.idea/assignment 3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../School/Past Semesters/Spring 2021/Programming/assignment10/.idea/assignment10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../School/Past Semesters/Spring 2021/Programming/program8/.idea/program8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../School/Past Semesters/Spring 2021/Programming/program9/.idea/program9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../School/Past Semesters/Spring 2021/Programming/pythonProject/.idea/pythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../School/Past Semesters/Spring 2021/Programming/pythonProject1/.idea/pythonProject1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../School/Past Semesters/Spring 2021/Programming/pythonProject12/.idea/pythonProject12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../School/Past Semesters/Spring 2021/Programming/turned in/assignment #1 hotel bill/.idea/pythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../School/Past Semesters/Spring 2021/Programming/turned in/assignment 1/.idea/assignment 1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../School/Past Semesters/Spring 2021/assignment 5/.idea/assignment 5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../School/Past Semesters/Spring 2021/assignment11/.idea/assignment11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../School/Past Semesters/Spring 2021/pythonProject/.idea/pythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../s1 - setup/code/.idea/code.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2SRuFzpIOTCH9dk9y8Reb6jdbBN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="802d8ee9-05e6-40a9-8901-c5ba4c0a477b" name="Default Changelist" comment="" />
+      <created>1689121614365</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689121614365</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
