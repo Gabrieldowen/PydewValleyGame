@@ -28,7 +28,7 @@ class Player(pygame.sprite.Sprite):
         }
 
         #tools
-        self.selected_tool = 'axe'
+        self.selected_tool = 'water'
 
     def use_tool(self):
         print(self.selected_tool)
