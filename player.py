@@ -9,9 +9,12 @@ class Player(pygame.sprite.Sprite):
         # important for the support.py must be at top
         self.import_assets()
 
+        # status of player standstill
+        self.status = 'down_idle'
+        self.frame_index = 0
+
         # general setup
-        self.image = pygame.Surface((32, 64))
-        self.image.fill('green')
+        self.image = self.animations[self.status][self.frame_index]
         self.rect = self.image.get_rect(center=pos)
 
         # movement attributes
@@ -28,24 +31,43 @@ class Player(pygame.sprite.Sprite):
             full_path = './graphics/character/' + animation
             self.animations[animation] = import_folder(full_path)
 
+    def animate(self, dt):
+        # animates player idle
+        self.frame_index += 4 * dt
+        if self.frame_index >= len(self.animations[self.status]):
+            self.frame_index = 0
+        self.image = self.animations[self.status][int(self.frame_index)]
+
     def input(self):
         keys = pygame.key.get_pressed()
 
         if keys[pygame.K_UP]:
             self.direction.y = -1
+            self.status = 'up'
         elif keys[pygame.K_DOWN]:
             self.direction.y = 1
+            self.status = 'down'
         else:
             self.direction.y = 0
         if keys[pygame.K_LEFT]:
             self.direction.x = -1
+            self.status = 'left'
         elif keys[pygame.K_RIGHT]:
             self.direction.x = 1
+            self.status = 'right'
         else:
             self.direction.x = 0
 
+    def get_status(self):
+        # if the player is not moving change status to idle
+        # idle
+        if self.direction.magnitude() == 0:
+            self.status = self.status.split('_')[0] + '_idle'
+
+        # tool
+
     def move(self, dt):
-        # normalizing vector so diaginal speed isnt faster
+        # normalizing vector so diagonal speed is not faster
         if self.direction.magnitude() > 0:
             self.direciton = self.direction.normalize()
 
@@ -59,4 +81,8 @@ class Player(pygame.sprite.Sprite):
 
     def update(self, dt):
         self.input()
+        self.get_status()
+
         self.move(dt)
+        self.animate(dt)
+
