@@ -72,7 +72,7 @@ class Player(pygame.sprite.Sprite):
             if keys[pygame.K_SPACE]:
                 self.timers['tool use'].activate()
                 self.direction = pygame.math.Vector2()
-
+                self.frame_index = 0
 
     def get_status(self):
         # if the player is not moving change status to idle
@@ -82,6 +82,10 @@ class Player(pygame.sprite.Sprite):
 
         if self.timers['tool use'].active:
             self.status = self.status.split('_')[0] + '_' + self.selected_tool
+
+    def update_timers(self):
+        for timer in self.timers.values():
+            timer.update()
 
     def move(self, dt):
         # normalizing vector so diagonal speed is not faster
@@ -99,6 +103,7 @@ class Player(pygame.sprite.Sprite):
     def update(self, dt):
         self.input()
         self.get_status()
+        self.update_timers()
 
         self.move(dt)
         self.animate(dt)
