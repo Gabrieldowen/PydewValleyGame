@@ -28,10 +28,12 @@ class Player(pygame.sprite.Sprite):
             'tool switch': Timer(200)
         }
 
-        #tools
+        # tools
         self.tools = ['hoe', 'axe', 'water']
         self.tool_index = 0
         self.selected_tool = self.tools[self.tool_index]
+
+        # seeds
 
     def use_tool(self):
         pass
@@ -40,7 +42,8 @@ class Player(pygame.sprite.Sprite):
         self.animations = {'up': [], 'down': [], 'left': [], 'right': [],
                            'right_idle': [], 'left_idle': [], 'up_idle': [], 'down_idle': [],
                            'right_hoe': [], 'left_hoe': [], 'up_hoe': [], 'down_hoe': [],
-                           'right_water': [], 'left_water': [], 'up_water': [], 'down_water': [], }
+                           'right_water': [], 'left_water': [], 'up_water': [], 'down_water': [],
+                           'right_axe': [], 'left_axe': [], 'up_axe': [], 'down_axe': []}
         for animation in self.animations.keys():
             full_path = './graphics/character/' + animation
             self.animations[animation] = import_folder(full_path)
