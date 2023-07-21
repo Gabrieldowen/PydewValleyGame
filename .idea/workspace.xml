@@ -4,7 +4,6 @@
     <list default="true" id="802d8ee9-05e6-40a9-8901-c5ba4c0a477b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support.py" beforeDir="false" afterPath="$PROJECT_DIR$/support.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689730228980</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added missing axe animations">
+      <created>1689730883928</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689730883928</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,14 +156,15 @@
     <MESSAGE value="water works" />
     <MESSAGE value="fixed" />
     <MESSAGE value="can change tools with q" />
-    <option name="LAST_COMMIT_MESSAGE" value="can change tools with q" />
+    <MESSAGE value="added missing axe animations" />
+    <option name="LAST_COMMIT_MESSAGE" value="added missing axe animations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/player.py</url>
-          <line>116</line>
+          <line>140</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
