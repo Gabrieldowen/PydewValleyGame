@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="802d8ee9-05e6-40a9-8901-c5ba4c0a477b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sprites.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689965153988</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added Camera and basic logic">
+      <created>1689966884928</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689966884928</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +188,7 @@
     <MESSAGE value="added missing axe animations" />
     <MESSAGE value="Added Seed use" />
     <MESSAGE value="Shows selected seeds and tools" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shows selected seeds and tools" />
+    <MESSAGE value="Added Camera and basic logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Camera and basic logic" />
   </component>
 </project>
