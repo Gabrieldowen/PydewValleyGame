@@ -1,0 +1,10 @@
+
+*.xml
+*.xml
+__pycache__/level.cpython-39.pyc
+.idea/workspace.xml
+__pycache__/overlay.cpython-39.pyc
+__pycache__/player.cpython-39.pyc
+__pycache__/sprites.cpython-39.pyc
+__pycache__/timer.cpython-39.pyc
+__pycache__/support.cpython-39.pyc

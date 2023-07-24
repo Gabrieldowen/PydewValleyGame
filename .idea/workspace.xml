@@ -19,6 +19,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -162,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689966884928</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="adding some map components &quot;ADD /data/map.tmx&quot;">
+      <created>1689967710514</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689967710514</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +197,7 @@
     <MESSAGE value="Added Seed use" />
     <MESSAGE value="Shows selected seeds and tools" />
     <MESSAGE value="Added Camera and basic logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Camera and basic logic" />
+    <MESSAGE value="adding some map components &quot;ADD /data/map.tmx&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding some map components &quot;ADD /data/map.tmx&quot;" />
   </component>
 </project>
