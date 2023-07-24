@@ -2,9 +2,9 @@ import pygame
 from player import Player
 from settings import *
 from overlay import Overlay
-from sprites import Generic
+from sprites import Generic, Water, WildFlower, Tree
 from pytmx.util_pygame import load_pygame
-
+from support import *
 
 class Level:
 	def __init__(self):
@@ -22,9 +22,30 @@ class Level:
 		tmx_data = load_pygame('./data/map.tmx')  #imports map
 
 		# house
-		for x, y, surf in tmx_data.get_layer_by_name('HouseFurnitureBottom').tiles():
-			Generic((x * TILE_SIZE, y * TILE_SIZE), surf, self.all_sprites, LAYERS['house bottom'])
+		for layer in ['HouseFloor', 'HouseFurnitureBottom']:  # house floor is only on bottom because its first
+			for x, y, surf in tmx_data.get_layer_by_name(layer).tiles():
+				Generic((x * TILE_SIZE, y * TILE_SIZE), surf, self.all_sprites, LAYERS['house bottom'])
 
+		for layer in ['HouseWalls', 'HouseFurnitureTop']:
+			for x, y, surf in tmx_data.get_layer_by_name(layer).tiles():
+				Generic((x * TILE_SIZE, y * TILE_SIZE), surf, self.all_sprites)
+
+		# fence
+		for x, y, surf in tmx_data.get_layer_by_name('Fence').tiles():
+			Generic((x * TILE_SIZE, y * TILE_SIZE), surf, self.all_sprites)
+
+		# water
+		water_frames = import_folder('./graphics/water')
+		for x, y, surf in tmx_data.get_layer_by_name('Water').tiles():
+			Water((x * TILE_SIZE, y * TILE_SIZE), water_frames, self.all_sprites)
+
+		# trees
+		for obj in tmx_data.get_layer_by_name('Trees'):
+			Tree((obj.x, obj.y), obj.image, self.all_sprites, obj.name)
+
+		# wildflowers
+		for obj in tmx_data.get_layer_by_name('Decoration'):
+			WildFlower((obj.x, obj.y), obj.image, self.all_sprites)
 
 		self.player = Player((640, 360), self.all_sprites)
 		Generic(
@@ -54,7 +75,7 @@ class CameraGroup(pygame.sprite.Group):
 		self.offset.y = player.rect.centery - SCREEN_HEIGHT / 2
 
 		for layer in LAYERS.values():
-			for sprite in self.sprites():
+			for sprite in sorted(self.sprites(), key=lambda sprite: sprite.rect.centery):
 				if sprite.z == layer:
 					offset_rect = sprite.rect.copy()
 					offset_rect.center -= self.offset

@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="802d8ee9-05e6-40a9-8901-c5ba4c0a477b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/Tilesets/Fences.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Tilesets/Grass.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Tilesets/Hills.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Tilesets/House Decoration.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Tilesets/House.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Tilesets/Objects.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Tilesets/Paths.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Tilesets/Plant Decoration.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Tilesets/Water.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Tilesets/interaction.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/map.tmx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
