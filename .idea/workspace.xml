@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="802d8ee9-05e6-40a9-8901-c5ba4c0a477b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/Tilesets/Fences.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tilesets/Grass.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tilesets/Hills.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tilesets/House Decoration.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tilesets/House.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tilesets/Objects.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tilesets/Paths.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tilesets/Plant Decoration.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tilesets/Water.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tilesets/interaction.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/map.tmx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sprites.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/support.py" beforeDir="false" afterPath="$PROJECT_DIR$/support.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -182,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689967710514</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added lots of stuff">
+      <created>1690227326056</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690227326056</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,6 +209,18 @@
     <MESSAGE value="Shows selected seeds and tools" />
     <MESSAGE value="Added Camera and basic logic" />
     <MESSAGE value="adding some map components &quot;ADD /data/map.tmx&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding some map components &quot;ADD /data/map.tmx&quot;" />
+    <MESSAGE value="added lots of stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="added lots of stuff" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/player.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
