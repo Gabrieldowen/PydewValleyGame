@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="802d8ee9-05e6-40a9-8901-c5ba4c0a477b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Transition.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/level.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
@@ -30,6 +31,12 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="15" />
+      <option value="300" />
+    </hideBySeverity>
   </component>
   <component name="ProjectId" id="2SRuFzpIOTCH9dk9y8Reb6jdbBN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -208,7 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690304087424</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add inventory and apples collectable">
+      <created>1690307881593</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1690307881593</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added wood">
+      <created>1690308011559</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1690308011559</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,6 +262,8 @@
     <MESSAGE value="added player starting position" />
     <MESSAGE value="Added Collisions aka borders" />
     <MESSAGE value="added tree chopping and interctions" />
-    <option name="LAST_COMMIT_MESSAGE" value="added tree chopping and interctions" />
+    <MESSAGE value="add inventory and apples collectable" />
+    <MESSAGE value="added wood" />
+    <option name="LAST_COMMIT_MESSAGE" value="added wood" />
   </component>
 </project>
