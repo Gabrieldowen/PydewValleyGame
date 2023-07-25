@@ -1,6 +1,16 @@
 import pygame
 from settings import *
 from pytmx.util_pygame import load_pygame
+from support import *
+
+
+class SoilTile(pygame.sprite.Sprite):
+    def __init__(self, pos, surf, groups):
+        super().__init__(groups)
+        self.image = surf
+        self.rect = self.image.get_rect(topleft=pos)
+        self.z = LAYERS['soil']
+
 
 class SoilLayer:
     def __init__(self, all_sprites):
@@ -11,6 +21,8 @@ class SoilLayer:
 
         # graphics
         self.soil_surf = pygame.image.load('./graphics/soil/o.png')
+        self.soil_surfs = import_folder_dict('./graphics/soil/')
+        print(self.soil_surfs)
 
         self.create_soil_grid()
         self.create_hit_rect()
@@ -43,4 +55,15 @@ class SoilLayer:
                 y = rect.y // TILE_SIZE
 
                 if 'F' in self.grid[y][x]:
-                    print('farmable')
+                    self.grid[y][x].append('X')
+                    self.create_soil_tiles()
+
+    def create_soil_tiles(self):
+        self.soil_sprites.empty()
+        for index_row, row in enumerate(self.grid):
+            for index_col, cell in enumerate(row):
+                if 'X' in cell:
+                    SoilTile(
+                        pos=(index_col * TILE_SIZE, index_row * TILE_SIZE),
+                        surf=self.soil_surf,
+                        groups=[self.all_sprites, self.soil_sprites])
