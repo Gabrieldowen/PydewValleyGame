@@ -48,6 +48,10 @@ class Level:
 		for obj in tmx_data.get_layer_by_name('Decoration'):
 			WildFlower((obj.x, obj.y), obj.image, [self.all_sprites, self.collision_sprites])
 
+		# collision tiles
+		for x, y, surf in tmx_data.get_layer_by_name('Collision').tiles():
+			Generic((x * TILE_SIZE, y * TILE_SIZE), pygame.Surface((TILE_SIZE, TILE_SIZE)), self.collision_sprites)
+
 		# Player
 		for obj in tmx_data.get_layer_by_name('Player'):
 			if obj.name == 'Start':
