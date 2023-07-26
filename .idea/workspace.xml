@@ -4,7 +4,6 @@
     <list default="true" id="802d8ee9-05e6-40a9-8901-c5ba4c0a477b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soil.py" beforeDir="false" afterPath="$PROJECT_DIR$/soil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support.py" beforeDir="false" afterPath="$PROJECT_DIR$/support.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690321152395</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="partial addition to add merging soiled tiles">
+      <created>1690322379175</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1690322379175</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +284,7 @@
     <MESSAGE value="added wood" />
     <MESSAGE value="added sleeping" />
     <MESSAGE value="added farmable soil with hoe interaction" />
-    <option name="LAST_COMMIT_MESSAGE" value="added farmable soil with hoe interaction" />
+    <MESSAGE value="partial addition to add merging soiled tiles" />
+    <option name="LAST_COMMIT_MESSAGE" value="partial addition to add merging soiled tiles" />
   </component>
 </project>
