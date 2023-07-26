@@ -7,7 +7,7 @@ from pytmx.util_pygame import load_pygame
 from support import *
 from Transition import Transition
 from soil import SoilLayer
-
+from sky import Rain
 
 class Level:
     def __init__(self):
@@ -26,6 +26,9 @@ class Level:
         self.overlay = Overlay(self.player)
         self.transition = Transition(self.reset, self.player)
 
+        # sky
+        self.rain = Rain(self.all_sprites)
+        self.raining = True
 
     def setup(self):
         tmx_data = load_pygame('./data/map.tmx')  # imports map
@@ -88,6 +91,9 @@ class Level:
         self.player.item_inventory[item] += 1
 
     def reset(self):
+        # soil
+        self.soil_layer.remove_water()
+
         # apples on trees
         for tree in self.tree_sprites.sprites():
             for apple in tree.apple_sprites.sprites():
@@ -98,11 +104,15 @@ class Level:
         self.display_surface.fill('black')
         # self.all_sprites.draw(self.display_surface) not needed with custom_draw()
         self.all_sprites.custom_draw(self.player)
-
         self.all_sprites.update(dt)
 
         self.overlay.display()
 
+        # rain
+        if self.raining == True:
+            self.rain.update()
+
+        # transition overlay
         if self.player.sleep:
             self.transition.play()
 
