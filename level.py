@@ -8,6 +8,7 @@ from support import *
 from Transition import Transition
 from soil import SoilLayer
 from sky import Rain
+from random import randint
 
 class Level:
     def __init__(self):
@@ -28,7 +29,8 @@ class Level:
 
         # sky
         self.rain = Rain(self.all_sprites)
-        self.raining = True
+        self.raining = randint(0, 10) > 10
+        self.soil_layer.raining = self.raining
 
     def setup(self):
         tmx_data = load_pygame('./data/map.tmx')  # imports map
@@ -91,8 +93,17 @@ class Level:
         self.player.item_inventory[item] += 1
 
     def reset(self):
+        # plants
+        self.soil_layer.update_plants()
         # soil
         self.soil_layer.remove_water()
+        # randomize rain
+        self.raining = randint(0, 10) > 10
+
+        self.soil_layer.raining = self.raining
+        if self.raining:
+            self.soil_layer.water_all()
+
 
         # apples on trees
         for tree in self.tree_sprites.sprites():
