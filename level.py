@@ -93,6 +93,8 @@ class Level:
         self.player.item_inventory[item] += 1
 
     def reset(self):
+        # TODO Make trees regrow
+
         # plants
         self.soil_layer.update_plants()
         # soil
@@ -105,7 +107,7 @@ class Level:
             self.soil_layer.water_all()
 
 
-        # apples on trees
+        # apples on tree
         for tree in self.tree_sprites.sprites():
             for apple in tree.apple_sprites.sprites():
                 apple.kill()

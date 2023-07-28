@@ -4,7 +4,6 @@
     <list default="true" id="802d8ee9-05e6-40a9-8901-c5ba4c0a477b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soil.py" beforeDir="false" afterPath="$PROJECT_DIR$/soil.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -270,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690395028275</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="added plants but TODO make them start as seeds">
+      <created>1690399645251</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1690399645251</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,7 +292,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testtesttest" />
     <MESSAGE value="setup" />
     <MESSAGE value="Added animations" />
     <MESSAGE value="almost added tool animations" />
@@ -310,6 +315,8 @@
     <MESSAGE value="partial addition to add merging soiled tiles" />
     <MESSAGE value="added soil tiled graphics and logic" />
     <MESSAGE value="added rain" />
-    <option name="LAST_COMMIT_MESSAGE" value="added rain" />
+    <MESSAGE value="added plants but TODO make them start as seeds" />
+    <MESSAGE value="Minor bug Fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor bug Fixes" />
   </component>
 </project>

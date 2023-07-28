@@ -189,7 +189,7 @@ class SoilLayer:
                     if all((t, b, r)) and not l: tile_type = 'tbr'
                     if all((t, b, l)) and not r: tile_type = 'tbl'
                     if all((l, r, t)) and not b: tile_type = 'lrb'
-                    if all((l, b, r)) and not t: tile_type = 'lbr'
+                    if all((l, b, r)) and not t: tile_type = 'lrt'
 
                     SoilTile(
                         pos=(index_col * TILE_SIZE, index_row * TILE_SIZE),
