@@ -109,9 +109,13 @@ class Level:
 
         # apples on tree
         for tree in self.tree_sprites.sprites():
+            if tree.health < 5:
+                print("damage")
+                if tree.health <= 0: print("stump")
             for apple in tree.apple_sprites.sprites():
                 apple.kill()
             tree.create_fruit()
+
 
     def run(self, dt):
         self.display_surface.fill('black')
