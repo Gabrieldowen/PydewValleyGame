@@ -8,3 +8,26 @@ __pycache__/player.cpython-39.pyc
 __pycache__/sprites.cpython-39.pyc
 __pycache__/timer.cpython-39.pyc
 __pycache__/support.cpython-39.pyc
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore the __pycache__ directory
+__pycache__
+
+# Ignore any virtual environment
+venv/
+
+# Ignore build and distribution directories
+build/
+dist/
+
+# Ignore the pygame cache
+*.pygame
+
+# Ignore any saved game state
+*.sav
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
