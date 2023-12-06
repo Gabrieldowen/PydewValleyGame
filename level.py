@@ -117,6 +117,8 @@ class Level:
             tree.create_fruit()
 
 
+    ## THIS IS THE MAIN LOGIC
+    
     def run(self, dt):
         self.display_surface.fill('black')
         # self.all_sprites.draw(self.display_surface) not needed with custom_draw()
